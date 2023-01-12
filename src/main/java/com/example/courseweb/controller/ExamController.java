@@ -9,7 +9,7 @@ import com.example.courseweb.model.Question;
 import java.util.Collection;
 
 @RestController
-@RequestMapping
+@RequestMapping("/get")
 public class ExamController {
 
     public final ExaminerService examinerService;
